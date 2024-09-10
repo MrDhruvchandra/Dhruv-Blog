@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom';
-import BlogImage from '../../places/pic1.jpg'
-const HomePage = () => {
+ const HomePage = () => {
     return (
       <>
         <main className="bg-transparent pt-20 rounded-md">
