@@ -42,7 +42,7 @@ const AllBlog = ({ reverse, image, date, title, description, author }) => {
               <img
                 src={image}
                 alt="Blog Image"
-                className="max-auto w-full p-3 hover:drop-shadow-md rounded-3xl"
+                 className=" max-w-full max-h-[400px] p-3 object-cover hover:drop-shadow-md rounded-3xl"
               />
             </div>
           </div>
