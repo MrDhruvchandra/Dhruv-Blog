@@ -4,8 +4,7 @@ import Blogs from "../component/Blog/Blogs";
  
 const FullBlog = (props) => {
   const location = useLocation();
-  // console.log(props, " props");
-  // console.log(location, " useLocation Hook");
+   
   const { image, date, title, description, author } = location.state;
 
   return (

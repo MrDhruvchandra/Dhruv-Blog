@@ -32,12 +32,11 @@ const Footer = () => {
             <h1 className="mb-3 text-justify text-xl font-bold sm:text-left sm:text-3xl">
               <Link to="/" className="">
                 DHRUV
-                <span className="inline-block font-bold text-teal-300">BLOG</span>
+                <span className="inline-block font-bold text-slate-500">BLOG</span>
               </Link>
             </h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet
-              consectetur adipisicing elit. Possimus, voluptate.{" "}
+            Dhruv Blog is a creative platform where writers and thinkers share ideas, insights, and stories. Explore diverse topics, engage with thought-provoking content, and inspire meaningful conversations with a global community.{" "}
             </p>
             <br />
             <div className="flex items-center gap-3">
@@ -66,18 +65,18 @@ const Footer = () => {
                   Important Links
                 </h1>
                 <ul className="flex flex-col gap-3">
-                  <li className="cursor-pointer transition-all duration-300 hover:translate-x-[2px]">
+                  <Link to="/" className="cursor-pointer transition-all duration-300 hover:translate-x-[2px]">
                     Home
-                  </li>
-                  <li className="cursor-pointer transition-all duration-300 hover:translate-x-[2px]">
-                    About
-                  </li>
-                  <li className="cursor-pointer transition-all duration-300 hover:translate-x-[2px]">
+                  </Link>
+                  <Link to="https://dhruv0110.netlify.app/" target="_blank" className="cursor-pointer transition-all duration-300 hover:translate-x-[2px]">
+                    About Developer
+                  </Link>
+                  <Link to="/blogs" className="cursor-pointer transition-all duration-300 hover:translate-x-[2px]">
                     Services
-                  </li>
-                  <li className="cursor-pointer transition-all duration-300 hover:translate-x-[2px]">
+                  </Link>
+                  <Link to="/authentication" className="cursor-pointer transition-all duration-300 hover:translate-x-[2px]">
                     Login
-                  </li>
+                  </Link>
                 </ul>
               </div>
             </div>
@@ -87,15 +86,15 @@ const Footer = () => {
                   Links
                 </h1>
                 <ul className="flex flex-col gap-3">
-                  <li className="cursor-pointer transition-all duration-300 hover:translate-x-[2px]">
-                    Privacy Policy
-                  </li>
-                  <li className="cursor-pointer transition-all duration-300 hover:translate-x-[2px]">
-                    Services
-                  </li>
-                  <li className="cursor-pointer transition-all duration-300 hover:translate-x-[2px]">
+                  <Link to="/writeBlog" className="cursor-pointer transition-all duration-300 hover:translate-x-[2px]">
+                    Write Blog
+                  </Link>
+                  <Link to="/blogs" className="cursor-pointer transition-all duration-300 hover:translate-x-[2px]">
+                    Our Latest Blogs
+                  </Link>
+                  <Link to="/" className="cursor-pointer transition-all duration-300 hover:translate-x-[2px]">
                     About us
-                  </li>
+                  </Link>
                 </ul>
               </div>
             </div>
