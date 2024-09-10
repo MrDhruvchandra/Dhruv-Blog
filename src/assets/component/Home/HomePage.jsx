@@ -18,11 +18,11 @@ const HomePage = () => {
               <p className="mb-6">
                 Dive into a world of thoughts, stories, and inspirations. Whether you're here to share your ideas or discover new perspectives, our platform connects you with a community of passionate bloggers. Start your journey today!
               </p>
-              <div className="space-y-4 md:space-x-4 md:space-y-0 md:flex">
+              <div className="space-y-4 space-x-6 md:space-x-4  md:space-y-0 md:flex">
                 <button className="rounded-md border-2 bg-emerald-300 px-4 py-2 text-sm text-black transition-colors duration-300 hover:bg-green-400">
                   <Link to="/blogs">Browse Blogs</Link>
                 </button>
-                <button className="border-1 rounded-md border-2 bg-emerald-300 px-4 py-2 text-sm text-black transition-colors duration-300">
+                <button className="border-1 rounded-md  border-2 bg-emerald-300 px-4 py-2 text-sm text-black transition-colors duration-300">
                   <Link to="/writeBlog">Write Blog</Link>
                 </button>
               </div>
