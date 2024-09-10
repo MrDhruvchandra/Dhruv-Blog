@@ -6,8 +6,8 @@ import './index.css'
 
 createRoot(document.getElementById('root')).render(
   <Auth0Provider
-  domain="dev-avrsrmdrfb12im3t.us.auth0.com"
-  clientId="axyFDaCnhrWcgKILhuf1pIvbOZ0gl6SQ"
+  domain="dev-cxl02yjhp2qzyvtl.us.auth0.com"
+  clientId="n3yWr6fm2N0ctgP36HdMwTuoDIvXihGd"
   authorizationParams={{
     redirect_uri: window.location.origin
   }}
