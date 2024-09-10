@@ -18,8 +18,8 @@ const Navbar= ()=>{
               </a>
             </div>
             <div className="flex justify-between items-center rounded-md  bg-green-200 outline-0">
-            <input type="text" placeholder='search ' className='hidden sm:block rounded-md p-1 bg-green-200 outline-0  ' />
-            <CiSearch   />
+            {/* <input type="text" placeholder='search ' className='hidden sm:block rounded-md p-1 bg-green-200 outline-0  ' />
+            <CiSearch   /> */}
             </div>
            
 
